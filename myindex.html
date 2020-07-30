@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>HELLO--with Info!</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body onload="checkRefresh();>
+<h1>Here's my nginx Info!</h1>
+<div class="info">
+    <p><span>Server name:</span> <span>server_hostname</span></p>
+    <p><span>Server address:</span> <span>server_address</span></p>
+    <p class="smaller"><span>User Agent:</span> <span>client_browser</span></p>
+    <p class="smaller"><span>URI:</span> <span>server_url</span></p>
+    <p class="smaller"><span>Doc Root:</span> <span>document_root</span></p>
+    <p class="smaller"><span>Date:</span> <span>server_date</span></p>
+    <p class="smaller"><span>NGINX Frontend Load Balancer IP:</span> <span>remote_addr</span></p>
+    <p class="smaller"><span>Client IP:</span> <span>proxied_for_ip</span></p>
+    <p class="smaller"><span>NGINX Version:</span> <span>nginx_version</span></p>
+</div>
+</body>
+</html>
